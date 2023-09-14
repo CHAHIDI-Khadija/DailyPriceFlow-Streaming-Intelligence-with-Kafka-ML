@@ -1,0 +1,140 @@
+2023-09-10 14:02:00,138 - Main - INFO : Starting the main program...
+2023-09-10 14:02:00,138 - Main - INFO : Loading configurations.
+2023-09-10 14:02:00,138 - Main - ERROR : Config file not found: [Errno 2] No such file or directory: 'C:/Users/840/Desktop/3Dconfig/data_config.json'
+2023-09-10 14:09:03,583 - Main - INFO : Starting the main program...
+2023-09-10 14:09:03,584 - Main - INFO : Loading configurations.
+2023-09-10 14:09:03,584 - Main - ERROR : Config file not found: [Errno 2] No such file or directory: 'C:/Users/840/Desktop/3Dconfig/data_config.json'
+2023-09-10 14:28:27,328 - Main - INFO : Starting the main program...
+2023-09-10 14:28:27,333 - Main - INFO : Loading configurations.
+2023-09-10 14:28:27,333 - Main - ERROR : Config file not found: [Errno 2] No such file or directory: 'C:/Users/840/Desktop/3Dconfig/data_config.json'
+2023-09-10 14:29:35,140 - Main - INFO : Starting the main program...
+2023-09-10 14:29:35,141 - Main - INFO : Loading configurations.
+2023-09-10 14:29:35,141 - Main - ERROR : Config file not found: [Errno 2] No such file or directory: 'C:/Users/840/Desktop/3Dconfig/data_config.json'
+2023-09-10 14:36:59,708 - Main - INFO : Starting the main program...
+2023-09-10 14:36:59,708 - Main - INFO : Loading configurations.
+2023-09-10 14:36:59,709 - Main - ERROR : Config file not found: [Errno 2] No such file or directory: 'C:/Users/840/Desktop/3Dconfig/data_config.json'
+2023-09-10 16:23:48,066 - Main - INFO : Starting the main program...
+2023-09-10 16:23:48,066 - Main - INFO : Loading configurations.
+2023-09-10 16:23:48,067 - Main - ERROR : Config file not found: [Errno 2] No such file or directory: 'C:/Users/840/Desktop/3Dconfig/data_config.json'
+2023-09-10 16:25:27,709 - Main - INFO : Starting the main program...
+2023-09-10 16:25:27,709 - Main - INFO : Loading configurations.
+2023-09-10 16:25:27,724 - Main - INFO : Configurations Loaded
+2023-09-10 16:25:27,725 - Producer - INFO : Starting the producer...
+2023-09-10 16:25:28,804 - Data Preprocessing - INFO : Processing data completed. Data is ready
+2023-09-10 16:25:28,849 - Producer - INFO : A message to the Kafka topic produced.
+2023-09-10 16:25:33,198 - Producer - INFO : Message delivered to 3D_topic [2]
+2023-09-10 16:25:33,198 - Producer - INFO : Message delivered to 3D_topic [2]
+2023-09-10 16:25:33,200 - Producer - INFO : Producer script execution finished.
+2023-09-10 16:25:33,200 - Producer - INFO : Producer script execution finished.
+2023-09-10 16:25:33,214 - Consumer - INFO : Starting the consumer...
+2023-09-10 16:25:33,273 - Consumer - INFO : Consumer instance created...
+2023-09-10 16:25:38,472 - Consumer - INFO : Message received.
+2023-09-10 16:25:38,533 - Consumer - INFO : DataFrame created.
+2023-09-10 16:25:38,534 - Model - INFO : Starting predicting...
+2023-09-10 16:25:42,130 - Model - INFO : Model fitted.
+2023-09-10 16:26:17,634 - Model - INFO : Report performance metrics
+2023-09-10 16:26:17,640 - Model - INFO : MSE: 0.003
+2023-09-10 16:26:17,640 - Model - INFO : MAE: 0.036
+2023-09-10 16:26:17,641 - Model - INFO : RMSE: 0.052
+2023-09-10 16:26:17,641 - Model - INFO : MAPE: 0.027%
+2023-09-10 16:26:18,726 - Model - INFO : Prediction completed.
+2023-09-10 16:26:18,726 - Consumer - INFO : Message acknowledged.
+2023-09-10 16:26:19,152 - Consumer - INFO : Consumer script execution finished.
+2023-09-10 16:26:19,154 - Send email - INFO : Starting sendMail...
+2023-09-10 16:26:19,156 - Send email - WARNING : Image file not found at path: C:/path/to/project/3D/images/close_values_with_prediction.png
+2023-09-10 16:26:29,367 - Send email - ERROR : Email could not be sent. Error: Connection unexpectedly closed
+2023-09-10 16:26:29,369 - Send email - INFO : Email script execution finished.
+2023-09-10 16:26:29,370 - Main - INFO : Main script execution finished.
+2023-09-10 16:26:29,372 - Main - INFO : Have a great day!
+2023-09-10 16:30:49,892 - Main - INFO : Starting the main program...
+2023-09-10 16:30:49,892 - Main - INFO : Loading configurations.
+2023-09-10 16:30:49,893 - Main - INFO : Configurations Loaded
+2023-09-10 16:30:49,893 - Producer - INFO : Starting the producer...
+2023-09-10 16:30:51,104 - Data Preprocessing - INFO : Processing data completed. Data is ready
+2023-09-10 16:30:51,145 - Producer - INFO : A message to the Kafka topic produced.
+2023-09-10 16:30:56,122 - Producer - INFO : Message delivered to 3D_topic [2]
+2023-09-10 16:30:56,122 - Producer - INFO : Message delivered to 3D_topic [2]
+2023-09-10 16:30:56,124 - Producer - INFO : Producer script execution finished.
+2023-09-10 16:30:56,124 - Producer - INFO : Producer script execution finished.
+2023-09-10 16:30:56,135 - Consumer - INFO : Starting the consumer...
+2023-09-10 16:30:56,199 - Consumer - INFO : Consumer instance created...
+2023-09-10 16:31:01,070 - Consumer - INFO : Message received.
+2023-09-10 16:31:01,126 - Consumer - INFO : DataFrame created.
+2023-09-10 16:31:01,127 - Model - INFO : Starting predicting...
+2023-09-10 16:31:04,216 - Model - INFO : Model fitted.
+2023-09-10 16:31:56,466 - Model - INFO : Report performance metrics
+2023-09-10 16:31:56,466 - Model - INFO : MSE: 0.003
+2023-09-10 16:31:56,467 - Model - INFO : MAE: 0.036
+2023-09-10 16:31:56,467 - Model - INFO : RMSE: 0.052
+2023-09-10 16:31:56,467 - Model - INFO : MAPE: 0.027%
+2023-09-10 16:31:56,854 - Model - INFO : Prediction completed.
+2023-09-10 16:31:56,855 - Consumer - INFO : Message acknowledged.
+2023-09-10 16:31:57,364 - Consumer - INFO : Consumer script execution finished.
+2023-09-10 16:31:57,367 - Send email - INFO : Starting sendMail...
+2023-09-10 16:31:57,403 - Send email - INFO : Attached image: C:/Users/840/Desktop/3D/images/close_values_with_prediction.png
+2023-09-10 16:32:07,597 - Send email - ERROR : Email could not be sent. Error: Connection unexpectedly closed
+2023-09-10 16:32:07,598 - Send email - INFO : Email script execution finished.
+2023-09-10 16:32:07,600 - Main - INFO : Main script execution finished.
+2023-09-10 16:32:07,601 - Main - INFO : Have a great day!
+2023-09-10 16:33:48,614 - Main - INFO : Starting the main program...
+2023-09-10 16:33:48,614 - Main - INFO : Loading configurations.
+2023-09-10 16:33:48,622 - Main - INFO : Configurations Loaded
+2023-09-10 16:33:48,623 - Producer - INFO : Starting the producer...
+2023-09-10 16:33:49,748 - Data Preprocessing - INFO : Processing data completed. Data is ready
+2023-09-10 16:33:49,789 - Producer - INFO : A message to the Kafka topic produced.
+2023-09-10 16:33:55,673 - Producer - INFO : Message delivered to 3D_topic [2]
+2023-09-10 16:33:55,673 - Producer - INFO : Message delivered to 3D_topic [2]
+2023-09-10 16:33:55,674 - Producer - INFO : Producer script execution finished.
+2023-09-10 16:33:55,674 - Producer - INFO : Producer script execution finished.
+2023-09-10 16:33:55,688 - Consumer - INFO : Starting the consumer...
+2023-09-10 16:33:55,739 - Consumer - INFO : Consumer instance created...
+2023-09-10 16:34:00,248 - Consumer - INFO : Message received.
+2023-09-10 16:34:00,271 - Consumer - INFO : DataFrame created.
+2023-09-10 16:34:00,272 - Model - INFO : Starting predicting...
+2023-09-10 16:34:03,118 - Model - INFO : Model fitted.
+2023-09-10 16:34:55,929 - Model - INFO : Report performance metrics
+2023-09-10 16:34:55,930 - Model - INFO : MSE: 0.003
+2023-09-10 16:34:55,930 - Model - INFO : MAE: 0.036
+2023-09-10 16:34:55,930 - Model - INFO : RMSE: 0.052
+2023-09-10 16:34:55,930 - Model - INFO : MAPE: 0.027%
+2023-09-10 16:34:56,232 - Model - INFO : Prediction completed.
+2023-09-10 16:34:56,232 - Consumer - INFO : Message acknowledged.
+2023-09-10 16:34:56,565 - Consumer - INFO : Consumer script execution finished.
+2023-09-10 16:34:56,567 - Send email - INFO : Starting sendMail...
+2023-09-10 16:34:56,589 - Send email - INFO : Attached image: C:/Users/840/Desktop/3D/images/close_values_with_prediction.png
+2023-09-10 16:34:59,330 - Send email - INFO : Email sent successfully!
+2023-09-10 16:34:59,330 - Send email - INFO : Email sent from khadija.test.23@gmail.com, to chdata2023@gmail.com
+2023-09-10 16:34:59,331 - Send email - INFO : Email script execution finished.
+2023-09-10 16:34:59,332 - Main - INFO : Main script execution finished.
+2023-09-10 16:34:59,332 - Main - INFO : Have a great day!
+2023-09-10 17:53:31,837 - Main - INFO : Starting the main program...
+2023-09-10 17:53:31,837 - Main - INFO : Loading configurations.
+2023-09-10 17:53:31,838 - Main - INFO : Configurations Loaded
+2023-09-10 17:53:31,838 - Producer - INFO : Starting the producer...
+2023-09-10 17:53:32,892 - Data Preprocessing - INFO : Processing data completed. Data is ready
+2023-09-10 17:53:32,977 - Producer - INFO : A message to the Kafka topic produced.
+2023-09-10 17:53:36,521 - Producer - INFO : Message delivered to 3D_topic [2]
+2023-09-10 17:53:36,521 - Producer - INFO : Message delivered to 3D_topic [2]
+2023-09-10 17:53:36,523 - Producer - INFO : Producer script execution finished.
+2023-09-10 17:53:36,523 - Producer - INFO : Producer script execution finished.
+2023-09-10 17:53:36,539 - Consumer - INFO : Starting the consumer...
+2023-09-10 17:53:36,622 - Consumer - INFO : Consumer instance created...
+2023-09-10 17:53:40,958 - Consumer - INFO : Message received.
+2023-09-10 17:53:41,003 - Consumer - INFO : DataFrame created.
+2023-09-10 17:53:41,004 - Model - INFO : Starting predicting...
+2023-09-10 17:53:43,884 - Model - INFO : Model fitted.
+2023-09-10 17:54:18,558 - Model - INFO : Report performance metrics
+2023-09-10 17:54:18,558 - Model - INFO : MSE: 0.003
+2023-09-10 17:54:18,558 - Model - INFO : MAE: 0.036
+2023-09-10 17:54:18,558 - Model - INFO : RMSE: 0.052
+2023-09-10 17:54:18,558 - Model - INFO : MAPE: 0.027%
+2023-09-10 17:54:19,062 - Model - INFO : Prediction completed.
+2023-09-10 17:54:19,062 - Consumer - INFO : Message acknowledged.
+2023-09-10 17:54:19,412 - Consumer - INFO : Consumer script execution finished.
+2023-09-10 17:54:19,413 - Send email - INFO : Starting sendMail...
+2023-09-10 17:54:19,428 - Send email - INFO : Attached image: C:/Users/840/Desktop/3D/images/close_values_with_prediction.png
+2023-09-10 17:54:22,936 - Send email - INFO : Email sent successfully!
+2023-09-10 17:54:22,937 - Send email - INFO : Email sent from khadija.test.23@gmail.com, to chdata2023@gmail.com
+2023-09-10 17:54:22,937 - Send email - INFO : Email script execution finished.
+2023-09-10 17:54:22,937 - Main - INFO : Main script execution finished.
+2023-09-10 17:54:22,938 - Main - INFO : Have a great day!

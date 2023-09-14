@@ -1,0 +1,23 @@
+{
+    "consumer_config": {
+        "bootstrap.servers": "Bootstrap server - Check your cluser setting",
+        "sasl.mechanisms": "PLAIN",
+        "security.protocol": "SASL_SSL",
+        "sasl.username": "API Key - Check your cluster API keys",
+        "sasl.password": "API Secret",
+        "group.id": "spring-boot-avro-consumer-id", 
+        "auto.offset.reset": "earliest" 
+    },
+
+    "producer_config": {
+        "bootstrap.servers": "Bootstrap server - Check your cluser setting",
+        "sasl.mechanisms": "PLAIN",
+        "security.protocol": "SASL_SSL",
+        "sasl.username": "API Key - Check your cluster API keys",
+        "sasl.password": "API Secret",
+        "broker.version.fallback": "0.10.0.0",
+        "api.version.fallback.ms": 0
+    },
+    
+    "topic": "3D_topic"
+}

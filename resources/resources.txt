@@ -1,0 +1,9 @@
+- Confluent Cloud Demo - Create Apache Kafka Cluster: https://www.youtube.com/watch?v=ICYoOKO2C8s&ab_channel=TheJavaTechLearning
+
+- Install Jenkins: 
+  - site officiel: https://www.jenkins.io/doc/book/installing/windows/
+  - https://phoenixnap.com/kb/install-jenkins-on-windows
+
+- How To Create Jenkins Job: https://www.youtube.com/watch?v=u2TpnY1Mmts&ab_channel=Mukeshotwani
+
+- Send email with python: https://www.youtube.com/watch?v=zxFXnLEmnb4

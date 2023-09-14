@@ -1,0 +1,31 @@
+2023-09-06 21:35:07,845 - Main - INFO : Starting the main program...
+2023-09-06 21:35:07,845 - Main - INFO : Loading configurations.
+2023-09-06 21:35:07,846 - Main - INFO : Configurations Loaded
+2023-09-06 21:35:07,847 - Producer - INFO : Starting the producer...
+2023-09-06 21:35:09,961 - Data Preprocessing - INFO : Processing data completed. Data is ready
+2023-09-06 21:35:10,064 - Producer - INFO : A message to the Kafka topic produced.
+2023-09-06 21:35:13,519 - Producer - INFO : Message delivered to 3D_topic [2]
+2023-09-06 21:35:13,519 - Producer - INFO : Message delivered to 3D_topic [2]
+2023-09-06 21:35:13,521 - Producer - INFO : Producer script execution finished.
+2023-09-06 21:35:13,521 - Producer - INFO : Producer script execution finished.
+2023-09-06 21:35:13,534 - Consumer - INFO : Starting the consumer...
+2023-09-06 21:35:13,601 - Consumer - INFO : Consumer instance created...
+2023-09-06 21:35:19,447 - Consumer - INFO : Message received.
+2023-09-06 21:35:19,484 - Consumer - INFO : DataFrame created.
+2023-09-06 21:35:19,486 - Model - INFO : Starting predicting...
+2023-09-06 21:35:23,537 - Model - INFO : Model fitted.
+2023-09-06 21:35:58,077 - Model - INFO : Report performance metrics
+2023-09-06 21:35:58,077 - Model - INFO : MSE: 0.003
+2023-09-06 21:35:58,079 - Model - INFO : MAE: 0.037
+2023-09-06 21:35:58,079 - Model - INFO : RMSE: 0.053
+2023-09-06 21:35:58,079 - Model - INFO : MAPE: 0.027%
+2023-09-06 21:35:58,365 - Model - INFO : Prediction completed.
+2023-09-06 21:35:58,367 - Consumer - INFO : Message acknowledged.
+2023-09-06 21:35:58,973 - Consumer - INFO : Consumer script execution finished.
+2023-09-06 21:35:58,977 - Send email - INFO : Starting sendMail...
+2023-09-06 21:35:58,991 - Send email - INFO : Attached image: C:\\Users\\840\\Desktop\\3D\\images\\close_values_with_prediction.png
+2023-09-06 21:36:03,730 - Send email - INFO : Email sent successfully!
+2023-09-06 21:36:03,731 - Send email - INFO : Email sent from test.2023@gmail.com, to email@gmail.com
+2023-09-06 21:36:03,731 - Send email - INFO : Email script execution finished.
+2023-09-06 21:36:03,733 - Main - INFO : Main script execution finished.
+2023-09-06 21:36:03,733 - Main - INFO : Have a great day!

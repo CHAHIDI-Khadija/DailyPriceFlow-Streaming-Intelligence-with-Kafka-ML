@@ -1,0 +1,117 @@
+Version Française
+-----------------
+
+Structure du projet
+
+Ce projet est organisé en plusieurs dossiers et fichiers pour une gestion efficace des ressources. Voici une vue d'ensemble de la structure du projet :
+
+1. main.py: Le point d'entrée du projet, où l'exécution principale commence.
+
+2. config : Ce dossier contient des fichiers de configuration pour diverses parties du projet :
+   - data_config.json: Configuration des données.
+   - email_config.json: Configuration de l'envoi d'e-mails.
+   - kafka_config.json: Configuration de Confluent Cloud Kafka.
+
+3. data : Ce dossier est dédié à la gestion des données :
+   - data.py: Module pour la manipulation des données.
+   - preprocessing.py: Module pour le prétraitement des données.
+
+4. images : Contient des images utilisées pour la documentation et la visualisation :
+   - close_values_with_prediction.png: Image de visualisation.
+   - email.png: Capture d'écran de l'e-mail envoyé par le projet.
+   - jenkins_job_interface.png: Capture d'écran de l'interface Jenkins.
+   - job_execution.jpeg: Capture d'écran de l'exécution des tâches.
+
+5. kafka : Comprend les scripts pour la communication Kafka :
+   - consumer.py: Script pour la consommation de messages Kafka.
+   - producer.py: Script pour la production de messages Kafka.
+
+6. mail : Gère l'envoi d'e-mails :
+   - sendMail.py: Module pour l'envoi d'e-mails.
+
+7. model : Contient des modules liés au modèle de données :
+   - arima.py: Module pour le modèle ARIMA.
+
+8. notebooks : Contient des notebooks Jupyter pour l'analyse et la documentation :
+   - 3D_Team2.ipynb: Notebook principal.
+
+9. presentations : Stocke les présentations réalisées :
+   - 1st presentation.pdf
+   - 2nd presentation.pdf
+   - 3rd presentation.pdf
+   - 4th presentation.pdf
+   - final presentation.pdf
+
+10. report : Stocke les rapports générés :
+    - report.pdf: Rapport au format PDF.
+    - report.docx: Rapport au format DOCX.
+
+11. resources : Ressources diverses :
+    - 3d_project_log.txt: Journal de bord du projet.
+    - requirements.txt: Liste des dépendances du projet.
+    - resources.txt: Autres ressources du projet.
+
+12. utils : Modules utilitaires :
+    - logger.py: Module pour la gestion des journaux.
+
+N'hésitez pas à explorer les dossiers et fichiers pour en savoir plus sur la structure du projet et ses composants. Assurez-vous de consulter la documentation et les rapports pour des informations plus détaillées sur le projet.
+
+------------------------------------------------------------------------
+
+English Version
+---------------
+
+Project Structure
+
+This project is organized into various folders and files for efficient resource management. Here is an overview of the project's structure:
+
+1. main.py: The entry point of the project where the main execution begins.
+
+2. config: This directory contains configuration files for different parts of the project:
+   - data_config.json: Data configuration.
+   - email_config.json: Email sending configuration.
+   - kafka_config.json: Confluent Cloud Kafka configuration.
+
+3. data: This directory is dedicated to data management:
+   - data.py: Module for data manipulation.
+   - preprocessing.py: Module for data preprocessing.
+
+4. images: Contains images used for documentation and visualization:
+   - close_values_with_prediction.png: Visualization image.
+   - email.png: Screenshot of the email sent by the project.
+   - jenkins_job_interface.png: Screenshot of the Jenkins interface.
+   - job_execution.jpeg: Screenshot of task execution.
+
+5. kafka: Includes scripts for Kafka communication:
+   - consumer.py: Script for Kafka message consumption.
+   - producer.py: Script for Kafka message production.
+
+6. mail: Manages email sending:
+   - sendMail.py: Module for sending emails.
+
+7. model: Contains modules related to the data model:
+   - arima.py: Module for the ARIMA model.
+
+8. notebooks: Contains Jupyter notebooks for analysis and documentation:
+   - 3D_Team2.ipynb: Main notebook.
+
+9. presentations: Stores presentations made:
+   - 1st presentation.pdf
+   - 2nd presentation.pdf
+   - 3rd presentation.pdf
+   - 4th presentation.pdf
+   - final presentation.pdf
+
+10. report: Stores generated reports:
+    - report.pdf: Report in PDF format.
+    - report.docx: Report in DOCX format.
+
+11. resources: Miscellaneous resources:
+    - 3d_project_log.txt: Project log journal.
+    - requirements.txt: List of project dependencies.
+    - resources.txt: Other project resources.
+
+12. utils: Utility modules:
+    - logger.py: Module for log management.
+
+Feel free to explore the folders and files to learn more about the project's structure and components. Be sure to check the documentation and reports for more detailed information about the project.

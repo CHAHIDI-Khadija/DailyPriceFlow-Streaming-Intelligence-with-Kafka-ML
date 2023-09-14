@@ -1,0 +1,7 @@
+{
+    "sender_email": "you.eamil@exemple.com",
+    "sender_password": "app-password",
+    "receiver_email": "e.mail@exemple.com",
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": "587"
+}
